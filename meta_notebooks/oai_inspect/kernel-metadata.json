@@ -1,0 +1,14 @@
+{
+  "id": "isotriage/rsna-knee-oai-inspect",
+  "title": "RSNA Knee OAI Inspect",
+  "code_file": "script.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "false",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": [
+    "mohamedberrimi/oaimri3ddess"
+  ]
+}

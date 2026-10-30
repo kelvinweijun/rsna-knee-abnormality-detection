@@ -1,0 +1,20 @@
+{
+ "id": "isotriage/rsna-knee-train-mix9lab-iso",
+ "title": "RSNA Knee Train Mix9lab Iso",
+ "code_file": "train_rsna-knee-train-mix9lab-iso.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": "true",
+ "enable_gpu": "true",
+ "enable_tpu": "false",
+ "enable_internet": "true",
+ "dataset_sources": [
+  "dreaddevelopment/knee-raptor-corpus",
+  "dreaddevelopment/knee-raptor-corpus-ext",
+  "isotriage/rsna-knee-fused-labels",
+  "isotriage/rsna-knee-moaks-tar"
+ ],
+ "keywords": [
+  "gpu"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tensorhydra/rsna-knee-arm-ours",
+  "title": "RSNA Knee Arm Ours",
+  "code_file": "rsna-knee-arm-ours.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "machine_shape": "1xT4",
+  "dataset_sources": [
+    "tensorhydra/rsna-knee-meta-folds-v4"
+  ],
+  "model_sources": [
+    "metaresearch/dinov2/pytorch/small/1"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ]
+}

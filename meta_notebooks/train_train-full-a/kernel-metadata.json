@@ -1,0 +1,19 @@
+{
+  "id": "sixmillionfold/rsna-knee-train-full-a",
+  "title": "Rsna Knee Train Full A",
+  "code_file": "train_train-full-a.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "dreaddevelopment/knee-raptor-corpus",
+    "dreaddevelopment/knee-raptor-corpus-ext",
+    "mohamedberrimi/oaimri3ddess",
+    "sixmillionfold/rsna-knee-fused-labels"
+  ],
+  "keywords": [
+    "gpu"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "varianceofx/rsna-knee-train-full-b",
+  "title": "RSNA Knee Train rsna-knee-train-full-b",
+  "code_file": "train_rsna-knee-train-full-b.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "dreaddevelopment/knee-raptor-corpus",
+    "dreaddevelopment/knee-raptor-corpus-ext",
+    "mohamedberrimi/oaimri3ddess",
+    "varianceofx/rsna-knee-fused-labels"
+  ],
+  "keywords": [
+    "gpu"
+  ]
+}

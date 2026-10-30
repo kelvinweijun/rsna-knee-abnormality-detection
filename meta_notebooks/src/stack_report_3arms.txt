@@ -1,0 +1,41 @@
+gold studies with all arms: 58
+
+== per-arm gold58 AUC ==
+      cnxt: macro 0.9105 | ACL=0.966 MCL=0.948 Medi=0.959 Late=0.891 Medi=0.966 Late=0.865 PF=0.844 Effu=0.878 Syno=0.757 Bake=0.976 Cont=0.962 Frac=0.914
+nartaa_raw: macro 0.9229 | ACL=0.964 MCL=0.943 Medi=0.982 Late=0.896 Medi=0.981 Late=0.776 PF=0.860 Effu=0.973 Syno=0.829 Bake=0.976 Cont=0.937 Frac=0.958
+  ours_oof: macro 0.8349 | ACL=0.776 MCL=0.889 Medi=0.748 Late=0.722 Medi=0.936 Late=0.859 PF=0.736 Effu=0.880 Syno=0.692 Bake=0.949 Cont=0.920 Frac=0.912
+
+== per-label Spearman between arms (rank space) ==
+cnxt vs nartaa_raw: mean 0.887 | ACL=0.93 MCL=0.88 Medi=0.92 Late=0.86 Medi=0.94 Late=0.92 PF=0.92 Effu=0.80 Syno=0.80 Bake=0.86 Cont=0.96 Frac=0.86
+cnxt vs ours_oof: mean 0.720 | ACL=0.72 MCL=0.75 Medi=0.55 Late=0.53 Medi=0.85 Late=0.79 PF=0.80 Effu=0.64 Syno=0.58 Bake=0.83 Cont=0.83 Frac=0.76
+nartaa_raw vs ours_oof: mean 0.717 | ACL=0.64 MCL=0.72 Medi=0.54 Late=0.53 Medi=0.84 Late=0.79 PF=0.71 Effu=0.68 Syno=0.71 Bake=0.79 Cont=0.85 Frac=0.80
+
+== uniform rank-mean stacks ==
+uniform (cnxt+nartaa_raw+ours_oof): macro 0.9170
+uniform cnxt+nartaa_raw: macro 0.9233
+uniform cnxt+ours_oof: macro 0.8952
+uniform nartaa_raw+ours_oof: macro 0.9028
+
+== per-label weights: simplex grid on ['cnxt', 'nartaa_raw', 'ours_oof'] (shrink 0.5 toward uniform) ==
+label              cnxt  nartaa  ours_o  auc_grid  auc_unif   delta
+ACL               0.30    0.70    0.00   0.9681   0.9332  +0.0349
+MCL               0.30    0.40    0.30   0.9660   0.9671  -0.0011
+Medial Meniscus    0.00    0.90    0.10   0.9820   0.9519  +0.0300
+Lateral Meniscus    0.50    0.40    0.10   0.9137   0.8851  +0.0286
+Medial OA         0.40    0.30    0.30   0.9845   0.9806  +0.0039
+Lateral OA        0.50    0.00    0.50   0.8772   0.8404  +0.0368
+PF OA             0.20    0.80    0.00   0.8668   0.8430  +0.0238
+Effusion          0.00    0.80    0.20   0.9727   0.9578  +0.0149
+Synovitis         0.00    1.00    0.00   0.8292   0.7838  +0.0454
+Baker's           0.50    0.40    0.10   0.9783   0.9719  +0.0063
+Contusion         0.90    0.00    0.10   0.9622   0.9474  +0.0148
+Fracture          0.10    0.80    0.10   0.9597   0.9424  +0.0174
+shrunk weights macro: 0.9305 (uniform 0.9170, grid-in-sample 0.9384)
+
+== bootstrap (2000 resamples of the 58): shrunk-stack macro - uniform macro ==
+mean +0.0135 | p10 +0.0092 | p90 +0.0181 | P(>0) 1.00
+
+== recommendation ==
+per-label shrunk weights look real on this sample — submit the shrunk stack
+shrunk per-label weights (columns ['cnxt', 'nartaa_raw', 'ours_oof']):
+[[0.32, 0.52, 0.17], [0.32, 0.37, 0.32], [0.17, 0.62, 0.22], [0.42, 0.37, 0.22], [0.37, 0.32, 0.32], [0.42, 0.17, 0.42], [0.27, 0.57, 0.17], [0.17, 0.57, 0.27], [0.17, 0.67, 0.17], [0.42, 0.37, 0.22], [0.62, 0.17, 0.22], [0.22, 0.57, 0.22]]

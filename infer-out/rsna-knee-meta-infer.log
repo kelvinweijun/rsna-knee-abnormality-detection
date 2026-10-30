@@ -1,0 +1,34 @@
+[{"stream_name":"stderr","time":8.066280846,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.066344534,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.06635226,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.066356586,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":8.728168356,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":8.728200613,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":8.728205254,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":8.728210335,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":9.941496331,"data":"Writing knee_meta/__init__.py\n"}
+,{"stream_name":"stdout","time":9.957169395,"data":"Writing knee_meta/config.py\n"}
+,{"stream_name":"stdout","time":9.981284856,"data":"Writing knee_meta/labels.py\n"}
+,{"stream_name":"stdout","time":10.000280197,"data":"Writing knee_meta/imaging.py\n"}
+,{"stream_name":"stdout","time":10.015644381,"data":"Writing knee_meta/model.py\n"}
+,{"stream_name":"stdout","time":10.031988115,"data":"Writing knee_meta/dataset.py\n"}
+,{"stream_name":"stdout","time":10.04644553,"data":"Writing knee_meta/metrics.py\n"}
+,{"stream_name":"stdout","time":10.064115896,"data":"Writing knee_meta/train.py\n"}
+,{"stream_name":"stdout","time":10.080359161,"data":"Writing knee_meta/infer.py\n"}
+,{"stream_name":"stdout","time":17.693937937,"data":"root    : /kaggle/input/competitions/rsna-knee-abnormality-detection\n"}
+,{"stream_name":"stdout","time":17.693998254,"data":"device  : cuda Tesla T4\n"}
+,{"stream_name":"stdout","time":17.694004269,"data":"backbone: /kaggle/input/models/metaresearch/dinov2/pytorch/small/1\n"}
+,{"stream_name":"stdout","time":17.694008509,"data":"cache   : 336 px | folds 5 | epochs 10 | train img 224 | budget 8.0 h\n"}
+,{"stream_name":"stdout","time":59.911130024,"data":"built (3, 6, 3, 224, 224) in 40.4 s\n"}
+,{"stream_name":"stdout","time":82.83496511,"data":"checkpoints: /kaggle/input/rsna-knee-meta-folds\n"}
+,{"stream_name":"stdout","time":90.012994456,"data":"test cache (3, 6, 3, 224, 224) 5 models\n"}
+,{"stream_name":"stdout","time":91.834902802,"data":"wrote /kaggle/working/submission.csv: 3 studies, 12 targets\n"}
+,{"stream_name":"stderr","time":97.530712737,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":97.530754939,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":97.696046485,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":97.696088584,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":98.543813124,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":98.634539875,"data":"[NbConvertApp] Writing 146354 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":101.391951488,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":102.207205972,"data":"[NbConvertApp] Writing 655275 bytes to __results__.html\n"}
+]

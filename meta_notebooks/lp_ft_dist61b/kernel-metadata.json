@@ -1,0 +1,22 @@
+{
+ "id": "legendreprime/rsna-knee-ft-dist61b",
+ "title": "rsna-knee-ft-dist61b",
+ "code_file": "train_rsna-knee-train-mix3lab-soft-v.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "dataset_sources": [
+  "dreaddevelopment/knee-raptor-corpus",
+  "dreaddevelopment/knee-raptor-corpus-ext",
+  "ephemeralbyte/rsna-knee-fused-labels",
+  "ephemeralbyte/rsna-knee-moaks-tar",
+  "ephemeralbyte/rsna-knee-oai-soft-targets"
+ ],
+ "kernel_sources": [
+  "legendreprime/rsna-knee-ft-dist61"
+ ],
+ "competition_sources": [],
+ "model_sources": []
+}

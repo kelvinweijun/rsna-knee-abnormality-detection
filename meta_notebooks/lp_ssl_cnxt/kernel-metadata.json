@@ -1,0 +1,16 @@
+{
+ "id": "legendreprime/rsna-knee-ssl-cnxt",
+ "title": "rsna-knee-ssl-cnxt",
+ "code_file": "ssl_cnxt.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "dataset_sources": [
+  "barun2104/rsna-knee-mri-processed-3d-volumes"
+ ],
+ "kernel_sources": [],
+ "competition_sources": [],
+ "model_sources": []
+}

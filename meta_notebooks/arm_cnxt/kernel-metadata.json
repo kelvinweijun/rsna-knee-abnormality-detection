@@ -1,0 +1,18 @@
+{
+  "id": "tensorhydra/rsna-knee-arm-cnxt",
+  "title": "RSNA Knee Arm CNXT",
+  "code_file": "rsna-knee-arm-cnxt.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "machine_shape": "1xT4",
+  "dataset_sources": [
+    "goodpjw2008/rsna-knee-2-5d-convnext-reader"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ]
+}

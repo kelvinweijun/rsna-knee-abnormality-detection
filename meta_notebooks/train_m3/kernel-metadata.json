@@ -1,0 +1,17 @@
+{
+  "id": "sixmillionfold/rsna-knee-train-m3",
+  "title": "RSNA Knee Train M3 coat384 omer",
+  "code_file": "train_m3.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "dreaddevelopment/knee-raptor-corpus",
+    "dreaddevelopment/knee-raptor-corpus-ext",
+    "sixmillionfold/rsna-knee-fused-labels",
+    "nartaa/rsna-knee-publication-swa-weights-20261007"
+  ]
+}

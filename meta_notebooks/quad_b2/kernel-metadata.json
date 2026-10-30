@@ -1,0 +1,30 @@
+{
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "true",
+  "enable_internet": "false",
+  "category": "uncategorized",
+  "dataset_sources": [
+    "varianceofx/rsna-knee-compact-r6cnxfsss",
+    "varianceofx/rsna-knee-compact-r7cnxfsss",
+    "nartaa/rsna-knee-publication-swa-weights-20261007",
+    "heliosli/rsna-orthofoundation-fold0-epoch7-20261004",
+    "dreaddevelopment/raptor-knee-widedense",
+    "dreaddevelopment/raptor-knee-arms",
+    "dreaddevelopment/raptor-knee-arms-x",
+    "isotriage/rsna-jev-oai-arm"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "keywords": [],
+  "kernelspec": {
+    "display_name": "Python 3",
+    "language": "python",
+    "name": "python3"
+  },
+  "id": "isotriage/rsna-knee-quad-b2",
+  "title": "RSNA Knee Quad B2",
+  "code_file": "rsna-knee-quad-b2.ipynb"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "tensorhydra/rsna-knee-train-oai-f1",
+  "title": "RSNA Knee Train OAI F1",
+  "code_file": "train_oai_f1.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "dreaddevelopment/knee-raptor-corpus",
+    "dreaddevelopment/knee-raptor-corpus-ext",
+    "mohamedberrimi/oaimri3ddess",
+    "tensorhydra/rsna-knee-fused-labels"
+  ],
+  "keywords": [
+    "gpu"
+  ]
+}

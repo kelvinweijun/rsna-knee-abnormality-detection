@@ -1,0 +1,23 @@
+{
+ "id": "varianceofx/rsna-knee-train-mix3lab-v",
+ "title": "RSNA Knee Train Mix3lab V",
+ "code_file": "train_rsna-knee-train-mix3lab-v.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": "true",
+ "enable_gpu": "true",
+ "enable_tpu": "false",
+ "enable_internet": "true",
+ "dataset_sources": [
+  "dreaddevelopment/knee-raptor-corpus",
+  "dreaddevelopment/knee-raptor-corpus-ext",
+  "varianceofx/rsna-knee-fused-labels-1022",
+  "varianceofx/rsna-knee-moaks-tar-v"
+ ],
+ "competition_sources": [
+  "rsna-knee-abnormality-detection"
+ ],
+ "keywords": [
+  "gpu"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "RSNA Knee Meta Fold Checkpoints",
+  "subtitle": "Fold checkpoints from rsna-knee-meta-train",
+  "description": "Five-fold DINOv2 ViT-S checkpoints trained by the private kernel tensorhydra/rsna-knee-meta-train on the RSNA knee abnormality detection competition.",
+  "id": "tensorhydra/rsna-knee-meta-folds",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ]
+}

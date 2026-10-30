@@ -1,0 +1,13 @@
+# Model weights / checkpoints (kept local; 85 MB each)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Python / tooling caches
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/

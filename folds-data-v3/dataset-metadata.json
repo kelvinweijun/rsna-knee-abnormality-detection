@@ -1,0 +1,11 @@
+{
+  "title": "RSNA Knee Meta Fold Checkpoints V3",
+  "subtitle": "consensus-label checkpoints from rsna-knee-full-consensus",
+  "description": "Five-fold DINOv2 ViT-S checkpoints trained on RSNA knee abnormality detection with deterministic mode and consensus label confidences (stevenleehans llm_labels_v4_blend as second opinion, non-gold disagreement cells downweighted). Mean fold CV 0.7946 (fold0 0.7919, fold1 0.7923, fold2 0.7890, fold3 0.7904, fold4 0.8092), superseding rsna-knee-meta-folds-v2 (CV 0.7872). Preproc marker rgb01, img-size trained at 224, evaluated at 336 by infer.",
+  "id": "tensorhydra/rsna-knee-meta-folds-v3",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "ephemeralbyte/rsna-knee-gold-eval-arms",
+ "title": "rsna-knee-gold-eval-arms",
+ "code_file": "gold_eval.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "dataset_sources": [
+  "dreaddevelopment/knee-raptor-corpus",
+  "dreaddevelopment/knee-raptor-corpus-ext",
+  "nartaa/rsna-knee-publication-swa-weights-20261007",
+  "manatoshoji03/rsna-knee-coat-extra2"
+ ],
+ "kernel_sources": [
+  "ephemeralbyte/rsna-knee-train-mix3lab-soft"
+ ],
+ "competition_sources": [],
+ "model_sources": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tensorhydra/rsna-knee-meta-infer",
+  "title": "RSNA Knee Meta Infer",
+  "code_file": "02_infer.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "machine_shape": "",
+  "dataset_sources": [
+    "tensorhydra/rsna-knee-meta-folds-v2"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "kernel_sources": [],
+  "model_sources": [
+    "metaresearch/dinov2/pytorch/small/1"
+  ]
+}

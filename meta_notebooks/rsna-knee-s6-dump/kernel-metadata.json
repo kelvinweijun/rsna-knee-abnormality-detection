@@ -1,0 +1,20 @@
+{
+ "id": "varianceofx/rsna-knee-s6-dump",
+ "title": "RSNA Knee S6 Dump",
+ "code_file": "rsna-knee-s6-dump.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": "true",
+ "enable_gpu": "true",
+ "enable_tpu": "false",
+ "enable_internet": "false",
+ "dataset_sources": [
+  "nartaa/rsna-knee-s6fall-weights",
+  "heliosli/rsna-orthofoundation-fold0-epoch7-20261004",
+  "nartaa/rsna-knee-publication-swa-weights-20261007"
+ ],
+ "competition_sources": [
+  "rsna-knee-abnormality-detection"
+ ],
+ "keywords": []
+}

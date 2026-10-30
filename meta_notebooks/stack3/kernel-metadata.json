@@ -1,0 +1,23 @@
+{
+  "id": "tensorhydra/rsna-knee-stack3",
+  "title": "RSNA Knee Stack3",
+  "code_file": "rsna-knee-stack3.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "machine_shape": "2xT4",
+  "dataset_sources": [
+    "nartaa/rsna-knee-publication-swa-weights-20261007",
+    "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+    "tensorhydra/rsna-knee-meta-folds-v4"
+  ],
+  "model_sources": [
+    "metaresearch/dinov2/pytorch/small/1"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "isotriage/rsna-knee-arm2-gold-eval",
+  "title": "RSNA Knee Arm2 Gold Eval",
+  "code_file": "rsna-knee-arm2-gold.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "machine_shape": "2xT4",
+  "dataset_sources": [
+    "isotriage/rsna-knee-arm2-weights",
+    "riadmohamed42/jev-knee-labels"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ]
+}

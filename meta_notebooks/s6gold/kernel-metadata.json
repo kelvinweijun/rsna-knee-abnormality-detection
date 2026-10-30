@@ -1,0 +1,25 @@
+{
+  "id": "isotriage/rsna-knee-s6-gold",
+  "title": "RSNA Knee S6 Gold",
+  "code_file": "rsna-knee-s6-gold.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "false",
+  "category": "uncategorized",
+  "dataset_sources": [
+    "heliosli/rsna-knee-compact-r6cnxfsss/2",
+    "heliosli/rsna-orthofoundation-fold0-epoch7-20261004/1",
+    "riadmohamed42/jev-knee-labels/5"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "keywords": [],
+  "kernelspec": {
+    "display_name": "Python 3",
+    "language": "python",
+    "name": "python3"
+  }
+}

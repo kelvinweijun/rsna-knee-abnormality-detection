@@ -1,0 +1,11 @@
+{
+  "title": "RSNA Knee Meta Fold Checkpoints V2",
+  "subtitle": "rgb01-preprocessing checkpoints from rsna-knee-meta-train",
+  "description": "Five-fold DINOv2 ViT-S checkpoints trained by the private kernel tensorhydra/rsna-knee-meta-train on the RSNA knee abnormality detection competition, saved with preproc marker rgb01 (inputs float in [0,1]). V2 supersedes rsna-knee-meta-folds; the v1 dataset is frozen to pair with pre-fix infer kernels.",
+  "id": "tensorhydra/rsna-knee-meta-folds-v2",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ]
+}

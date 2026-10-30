@@ -1,0 +1,26 @@
+{
+ "id": "tensorhydra/rsna-knee-nartaa-ours-fusion",
+ "title": "RSNA Knee Nartaa Ours Fusion",
+ "code_file": "rsna-knee-nartaa-ours-fusion.ipynb",
+ "language": "python",
+ "kernel_type": "notebook",
+ "is_private": "true",
+ "enable_gpu": "true",
+ "enable_tpu": "false",
+ "enable_internet": "false",
+ "machine_shape": "2xT4",
+ "dataset_sources": [
+  "nartaa/rsna-knee-publication-swa-weights-20261007",
+  "goodpjw2008/rsna-knee-2-5d-convnext-reader",
+  "tensorhydra/rsna-knee-meta-folds-v4"
+ ],
+ "competition_sources": [
+  "rsna-knee-abnormality-detection"
+ ],
+ "kernel_sources": [
+  "tensorhydra/rsna-knee-meta-infer"
+ ],
+ "model_sources": [
+  "metaresearch/dinov2/pytorch/small/1"
+ ]
+}

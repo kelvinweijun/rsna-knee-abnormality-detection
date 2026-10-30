@@ -1,0 +1,19 @@
+{
+  "id": "tensorhydra/rsna-knee-meta-train",
+  "title": "RSNA Knee Meta Train",
+  "code_file": "01_train.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "machine_shape": "",
+  "dataset_sources": [],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "kernel_sources": [],
+  "model_sources": [
+    "metaresearch/dinov2/pytorch/small/1"
+  ]
+}

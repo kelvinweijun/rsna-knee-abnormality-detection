@@ -1,0 +1,18 @@
+{
+ "id": "legendreprime/rsna-knee-crop-eval",
+ "title": "rsna-knee-crop-eval",
+ "code_file": "crop_eval.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": true,
+ "dataset_sources": [
+  "dreaddevelopment/knee-raptor-corpus",
+  "dreaddevelopment/knee-raptor-corpus-ext",
+  "manatoshoji03/rsna-knee-coat-extra2"
+ ],
+ "kernel_sources": [],
+ "competition_sources": [],
+ "model_sources": []
+}

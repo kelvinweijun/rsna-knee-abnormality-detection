@@ -1,0 +1,22 @@
+{
+  "id": "varianceofx/rsna-knee-h957-v5-vox",
+  "title": "RSNA Knee H957 V5 Vox",
+  "code_file": "rsna-knee-h957-v5.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "dataset_sources": [
+    "heliosli/rsna-knee-r6-frozen-fe055406-w1",
+    "nartaa/rsna-knee-publication-swa-weights-20261007",
+    "heliosli/rsna-orthofoundation-fold0-epoch7-20261004"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ],
+  "keywords": [
+    "gpu"
+  ]
+}

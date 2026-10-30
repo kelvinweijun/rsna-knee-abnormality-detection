@@ -1,0 +1,20 @@
+{
+  "id": "varianceofx/rsna-knee-r7-gold",
+  "title": "RSNA Knee R7 Gold",
+  "code_file": "rsna-knee-r7-gold.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "category": "uncategorized",
+  "dataset_sources": [
+    "heliosli/rsna-knee-compact-r7cnxfsss",
+    "heliosli/rsna-orthofoundation-fold0-epoch7-20261004",
+    "riadmohamed42/jev-knee-labels"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ]
+}

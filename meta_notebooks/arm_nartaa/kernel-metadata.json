@@ -1,0 +1,18 @@
+{
+  "id": "tensorhydra/rsna-knee-arm-nartaa",
+  "title": "RSNA Knee Arm Nartaa",
+  "code_file": "rsna-knee-arm-nartaa.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "machine_shape": "1xT4",
+  "dataset_sources": [
+    "nartaa/rsna-knee-publication-swa-weights-20261007"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ]
+}

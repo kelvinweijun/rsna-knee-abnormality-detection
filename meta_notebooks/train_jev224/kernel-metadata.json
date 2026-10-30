@@ -1,0 +1,17 @@
+{
+  "id": "isotriage/rsna-knee-train-jev224",
+  "title": "RSNA Knee Train JEV224",
+  "code_file": "train_jev.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "true",
+  "machine_shape": "2xT4",
+  "dataset_sources": [
+    "dreaddevelopment/knee-raptor-corpus",
+    "dreaddevelopment/knee-raptor-corpus-ext",
+    "riadmohamed42/jev-knee-labels"
+  ]
+}

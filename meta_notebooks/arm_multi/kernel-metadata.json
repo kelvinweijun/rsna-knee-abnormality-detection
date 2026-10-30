@@ -1,0 +1,26 @@
+{
+  "id": "isotriage/rsna-knee-arm-multi",
+  "title": "RSNA Knee Arm Multi",
+  "code_file": "rsna-knee-arm-multi.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_tpu": "false",
+  "enable_internet": "false",
+  "machine_shape": "2xT4",
+  "dataset_sources": [
+    "nartaa/rsna-knee-publication-swa-weights-20261007",
+    "dreaddevelopment/raptor-knee-arms",
+    "dreaddevelopment/raptor-knee-arms-x",
+    "sixmillionfold/rsna-jev-arms-pub",
+    "isotriage/rsna-jev-oai-arm",
+    "riadmohamed42/jev-knee-labels",
+    "sixmillionfold/rsna-new-backbones",
+    "dreaddevelopment/raptor-knee-widedense",
+    "dreaddevelopment/raptor-cnn336"
+  ],
+  "competition_sources": [
+    "rsna-knee-abnormality-detection"
+  ]
+}

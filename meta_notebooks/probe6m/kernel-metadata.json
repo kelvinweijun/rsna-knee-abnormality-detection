@@ -1,0 +1,16 @@
+{
+  "id": "sixmillionfold/rsna-knee-probe6m",
+  "title": "RSNA Knee Probe 6M",
+  "code_file": "probe6m.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": "true",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "dreaddevelopment/knee-raptor-corpus",
+    "dreaddevelopment/knee-raptor-corpus-ext",
+    "sixmillionfold/rsna-knee-fused-labels"
+  ]
+}
